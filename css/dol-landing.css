@@ -1,0 +1,389 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  background: url(../images/bg-main.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+@media all and (min-width: 768px) {
+  body {
+    padding-top: 76px;
+  }
+}
+@media all and (max-width: 768px) {
+  body {
+    padding-top: 36px;
+  }
+}
+header {
+  margin: 4em 0 2em 0;
+  padding: 0;
+  text-align: center;
+}
+footer {
+  margin: 3em 0 1em 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  font-size: 22px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  color: #222;
+}
+a {
+  color: #4a0000;
+  text-decoration: none;
+}
+.main-container {
+  height: 100%;
+}
+.opc {
+  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+  .logo-bar {
+    position: fixed;
+    top: 0;
+    height: 104px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    z-index: 300;
+    padding-top: 6px;
+  }
+}
+@media all and (max-width: 480px) {
+  .logo-bar {
+    position: fixed;
+    top: 0;
+    height: 74px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    z-index: 300;
+    padding-top: 6px;
+  }
+}
+.logo-bar img {
+  max-height: 92px;
+}
+@media all and (max-width: 480px) {
+  .logo-bar img {
+    max-height: 60px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .nurse {
+    float: right;
+    max-width: 190px;
+  }
+  .intro-list li {
+    font-size: 18px;
+  }
+  .intro-block-image {
+    position: relative;
+  }
+  .intro-block-image h2 {
+    font-size: 28px;
+    font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    padding: 12px 0 30px 0;
+  }
+  .intro-block-image .clinical-manager {
+    position: absolute;
+    bottom: 18px;
+    right: 32px;
+    background-color: #4a0000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px 0 6px 0;
+    width: 160px;
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+  }
+}
+@media all and (min-width: 1025px) {
+  .nurse {
+    float: right;
+    max-width: 190px;
+  }
+  .intro-block-image {
+    position: relative;
+  }
+  .intro-block-image h2 {
+    font-size: 36px;
+    font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    padding: 12px 0 30px 0;
+  }
+  .intro-block-image .clinical-manager {
+    position: absolute;
+    bottom: 18px;
+    right: 32px;
+    background-color: #4a0000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px 0 6px 0;
+    width: 160px;
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+  }
+}
+.main-header {
+  color: #4a0000;
+  font-weight: 700;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 62px;
+  max-width: 80%;
+  margin: 0 auto 20px auto;
+  line-height: 100%;
+}
+.intro-block,
+.form-block {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1.5em 1.5em 2em 1.5em;
+  border-radius: 12px;
+}
+.intro-block-image {
+  text-align: center;
+}
+.form-block {
+  padding: 1.5em 1.5em 0 1.5em;
+  max-height: 650px;
+}
+.form-block-header {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  color: #4a0000;
+}
+.form-block-copy {
+  margin: 6px 0 8px 0;
+  padding: 0;
+}
+.intro-header {
+  padding-bottom: 16px;
+}
+.energy-worker {
+  border-radius: 12px;
+  margin: 0 auto 12px auto;
+}
+.intro-block p {
+  font-size: 22px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  color: #222;
+  margin: 0 auto;
+  padding: 0;
+}
+.intro-divider {
+  margin: 10px 0;
+}
+.intro-block strong {
+  font-weight: 700;
+}
+.intro-list {
+  list-style: none;
+}
+.intro-list li {
+  margin-bottom: 4px;
+}
+.intro-list-block {
+  margin-top: 20px;
+}
+.footer-logo,
+.footer-info {
+  text-align: center;
+}
+.footer-info {
+  height: 100%;
+}
+.footer-info p {
+  color: #4a0000;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0 0 0;
+}
+.intro-block-thank-you {
+  text-align: center;
+}
+.intro-block-thank-you a {
+  color: #336699;
+}
+.intro-block-thank-you p {
+  margin-top: 20px;
+}
+.fa-thank-you {
+  font-size: 120px;
+  color: #009966;
+  margin: 0 auto;
+}
+.testimonial {
+  text-align: center;
+  padding: 60px 0 30px 0;
+}
+.testimonial h2 {
+  color: #4a0000;
+  font-weight: 700;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.testimonial-box {
+  padding: 30px 0 30px 0;
+  border-bottom: 1px dotted #bbb;
+}
+.testimonial-copy {
+  font-size: 16px;
+}
+.testimonial-author,
+.testimonial-info {
+  font-size: 14px;
+  text-align: left;
+  padding: 0;
+}
+.testimonial-author {
+  font-weight: 700;
+  margin: 0 0 0 60%;
+}
+.testimonial-info {
+  margin: 0 0 0 61%;
+}
+/* Wufoo Custom Styles */
+input#saveForm {
+  width: 100%;
+  background-color: #4a0000;
+  padding: 10px !important;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.wufoo .info {
+  display: none;
+}
+header#header,
+header#header {
+  display: none;
+}
+li.notranslate {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#public {
+  background: transparent;
+}
+@media (max-width: 768px) {
+  .form-block {
+    min-height: 720px;
+    margin-top: 20px;
+  }
+  .main-header {
+    font-size: 48px;
+    max-width: 100%;
+    margin: 0 auto 4px auto;
+  }
+  .intro-block-image h2 {
+    font-size: 32px;
+  }
+  .intro-list li {
+    font-size: 28px;
+  }
+}
+@media all and (max-width: 480px) {
+  .main-header {
+    font-size: 28px;
+    max-width: 100%;
+    margin: 0 auto 4px auto;
+  }
+  .intro-block-image {
+    padding-top: 4px;
+  }
+  .intro-block-image h2 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 0;
+    font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+  }
+  .intro-list li {
+    font-size: 16px;
+  }
+  .nurse {
+    display: none;
+  }
+  .clinical-manager {
+    display: none;
+  }
+  ul,
+  ol,
+  li {
+    font-size: 15px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 300;
+    color: #222;
+  }
+  .form-block {
+    margin-top: 10px;
+  }
+  .intro-block p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .footer-logo {
+    padding-top: 30px;
+  }
+  .footer-info {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-info p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footer-info-last {
+    margin-top: 40px;
+  }
+  .intro-list-block {
+    margin-top: 20px;
+  }
+  .form-block {
+    min-height: 640px;
+    margin-top: 20px;
+  }
+}
+label {
+  font-family: 'Open Sans Condensed';
+  display:block;
+  font-weight:600;
+  color:#4a0000;
+  margin:0;
+  padding:10px 0 0 0;
+}
+
+input {
+  width:100%;
+}
+
+textarea {
+  height:100px;
+  width:100%;
+}
