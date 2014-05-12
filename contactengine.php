@@ -1,7 +1,7 @@
 <?php
 
 $EmailFrom = "rcarrigan@remainathomeseniorcare.com";
-$EmailTo = "rcarrigan87@gmail.com,7066142432@vtext.com";
+$EmailTo = "ryanc@rahhc.com, dawnb@rahhc.com, morgane@rahhc.com, buck@rahhc.com, christieu@rahhc.com, normab@rahhc.com, timc@rahhc.com, brianC@rahhc.com, 7066142432@vtext.com, 7064248123@vtext.com";
 $Subject = "SRS Submission";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Tel = Trim(stripslashes($_POST['Tel'])); 
